@@ -1,6 +1,12 @@
 # .NET-for-Apache-Spark_Sample2
 
-## Create a new .NET C# console application
+## 0. Prerrequisites
+
+See the prerrequisites to run a .NET Spark application in the repository:
+
+https://github.com/luiscoco/.NET-for-Apache-Spark_Sample1
+
+## 1. Create a new .NET C# console application
 
 Run Visual Studio and create a new C# consolo application.
 
@@ -8,7 +14,7 @@ Load Nuget package **Microsoft.Spark**
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark_Sample2/assets/32194879/b769293f-37de-49cc-b00d-6ec9ad3f6494)
 
-## Application source code
+## 2. Application source code
 
 ```csharp
 using System;
@@ -66,7 +72,7 @@ namespace DataSourceSparkExample
 }
 ```
 
-## Create a JSON file as the application data input
+## 3. Create a JSON file as the application data input
 
 ```JSON
 [
@@ -83,7 +89,7 @@ Place the people.json file in the application folder
 
 ![image](https://github.com/luiscoco/.NET-for-Apache-Spark_Sample2/assets/32194879/81fd106b-2d32-42ce-81dc-448e52f7e568)
 
-## To run the application
+## 4. To run the application
 
 ```
 C:\DataSourceSparkExample\DataSourceSparkExample\bin\Debug\net7.0>spark-submit ^

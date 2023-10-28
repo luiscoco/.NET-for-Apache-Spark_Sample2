@@ -45,7 +45,7 @@ namespace DataSourceSparkExample
             parquetFile.CreateTempView("parquet");
 
             DataFrame teenagers = spark.Sql(
-                "SELECT name FROM parquet WHERE age >= 13 and age <= 19");
+                "SELECT name FROM parquet WHERE age >= 13 and age <= 30");
 
             teenagers.Show();
         }

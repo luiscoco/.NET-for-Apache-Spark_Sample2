@@ -1,5 +1,13 @@
 # .NET-for-Apache-Spark_Sample2
 
+## Create a new .NET C# console application
+
+Run Visual Studio and create a new C# consolo application.
+
+Load Nuget package **Microsoft.Spark**
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark_Sample2/assets/32194879/b769293f-37de-49cc-b00d-6ec9ad3f6494)
+
 ## Application source code
 
 ```csharp

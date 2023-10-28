@@ -98,3 +98,9 @@ More? --master local ^
 More? microsoft-spark-3-2_2.12-2.1.1.jar ^
 More? dotnet DataSourceSparkExample.dll C:\DataSourceSparkExample
 ```
+
+## 5. Output after running the application
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark_Sample2/assets/32194879/ecb2414d-e667-49bb-8b55-0a29a1bd926b)
+
+![image](https://github.com/luiscoco/.NET-for-Apache-Spark_Sample2/assets/32194879/7bc416e8-eb64-4f84-ae37-b9edf4dabc21)
